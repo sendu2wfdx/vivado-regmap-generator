@@ -1,0 +1,1003 @@
+{
+  "prefix": "ADS4229",
+  "blocks": [
+    {
+      "name": "IO_DELAY_CTRL",
+      "registers": [
+        {
+          "name": "PA_DELAY_CTRL_0",
+          "offset": "0x0000",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "da3_delay_value",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RW"
+            },
+            {
+              "name": "da2_delay_value",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RW"
+            },
+            {
+              "name": "da1_delay_value",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "da0_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "PA_DELAY_CTRL_1",
+          "offset": "0x0004",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "da7_delay_value",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RW"
+            },
+            {
+              "name": "da6_delay_value",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RW"
+            },
+            {
+              "name": "da5_delay_value",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "da4_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "PA_DELAY_CTRL_2",
+          "offset": "0x0008",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "da11_delay_value",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RW"
+            },
+            {
+              "name": "da10_delay_value",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RW"
+            },
+            {
+              "name": "da9_delay_value",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "da8_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "PA_DELAY_effect_0",
+          "offset": "0x000C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "da3_delay_effect",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "da2_delay_effect",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "da1_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "da0_delay_effect",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RO"
+            }
+          ]
+        },
+        {
+          "name": "PA_DELAY_effect_1",
+          "offset": "0x0010",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "da7_delay_effect",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "da6_delay_effect",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "da5_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "da4_delay_effect",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RO"
+            }
+          ]
+        },
+        {
+          "name": "PA_DELAY_effect_2",
+          "offset": "0x0014",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "da11_delay_effect",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "da10_delay_effect",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "da9_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "da8_delay_effect",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RO"
+            }
+          ]
+        },
+        {
+          "name": "PB_DELAY_CTRL_0",
+          "offset": "0x0018",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "db3_delay_value",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RW"
+            },
+            {
+              "name": "db2_delay_value",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RW"
+            },
+            {
+              "name": "db1_delay_value",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "db0_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "PB_DELAY_CTRL_1",
+          "offset": "0x001C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "db7_delay_value",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RW"
+            },
+            {
+              "name": "db6_delay_value",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RW"
+            },
+            {
+              "name": "db5_delay_value",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "db4_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "PB_DELAY_CTRL_2",
+          "offset": "0x0020",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "db11_delay_value",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RW"
+            },
+            {
+              "name": "db10_delay_value",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RW"
+            },
+            {
+              "name": "db9_delay_value",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "db8_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "PB_DELAY_effect_0",
+          "offset": "0x0024",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "db3_delay_effect",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "db2_delay_effect",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "db1_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "db0_delay_effect",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RO"
+            }
+          ]
+        },
+        {
+          "name": "PB_DELAY_effect_1",
+          "offset": "0x0028",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "db7_delay_effect",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "db6_delay_effect",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "db5_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "db4_delay_effect",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RO"
+            }
+          ]
+        },
+        {
+          "name": "PB_DELAY_effect_2",
+          "offset": "0x002C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "db11_delay_effect",
+              "msb": 28,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "db10_delay_effect",
+              "msb": 20,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "db9_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "db8_delay_effect",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RO"
+            }
+          ]
+        },
+        {
+          "name": "FB_CLK_DELAY_CTRL",
+          "offset": "0x0030",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "LVDS_MODE",
+              "msb": 25,
+              "lsb": 25,
+              "access": "RO"
+            },
+            {
+              "name": "CMOS_MODE",
+              "msb": 24,
+              "lsb": 24,
+              "access": "RO"
+            },
+            {
+              "name": "delay_locked",
+              "msb": 16,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "fb_clk_delay_effect",
+              "msb": 12,
+              "lsb": 8,
+              "access": "RO"
+            },
+            {
+              "name": "fb_clk_delay_value",
+              "msb": 4,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMA",
+      "registers": [
+        {
+          "name": "DMA_CTRL",
+          "offset": "0x0100",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "eot_en",
+              "msb": 25,
+              "lsb": 25,
+              "access": "RW",
+              "description": "传输结束中断"
+            },
+            {
+              "name": "sot_en",
+              "msb": 24,
+              "lsb": 24,
+              "access": "RW",
+              "description": "传输开始中断"
+            },
+            {
+              "name": "transfer_status",
+              "msb": 19,
+              "lsb": 16,
+              "access": "RO",
+              "description": "ch0 数据错误"
+            },
+            {
+              "name": "transfer_mode",
+              "msb": 10,
+              "lsb": 8,
+              "access": "RW",
+              "description": "传输模式：\n0：正常传输。1：交织传输\n2：只传输通道1。3：只传输通道2"
+            },
+            {
+              "name": "transfer_start",
+              "msb": 0,
+              "lsb": 0,
+              "access": "W1S",
+              "description": "写1 开始传输，完成时自动清0"
+            }
+          ]
+        },
+        {
+          "name": "DMA_TRANSFER_BYTES",
+          "offset": "0x0104",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "transfer_bytes",
+              "msb": 31,
+              "lsb": 0,
+              "access": "RW",
+              "description": "传输 bytes 数量"
+            }
+          ]
+        },
+        {
+          "name": "DMA_CH1_MM",
+          "offset": "0x0108",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "ch1_mm_address",
+              "msb": 31,
+              "lsb": 0,
+              "access": "RW",
+              "description": "通道1基地址，\n当使用交织模式时，通道 12 同时使用该地址"
+            }
+          ]
+        },
+        {
+          "name": "DMA_CH2_MM",
+          "offset": "0x010C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "ch2_mm_address",
+              "msb": 31,
+              "lsb": 0,
+              "access": "RW",
+              "description": "通道2基地址"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPI",
+      "registers": [
+        {
+          "name": "SPI_ADDRESS",
+          "offset": "0x0200",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "spi_read_request",
+              "msb": 9,
+              "lsb": 9,
+              "access": "RW",
+              "description": "1表示读寄存器，0表示写寄存器"
+            },
+            {
+              "name": "spi_address_valid",
+              "msb": 8,
+              "lsb": 8,
+              "access": "W1S",
+              "description": "写1启动访问，传输完成后由硬件自动清零"
+            },
+            {
+              "name": "spi_rw_address",
+              "msb": 7,
+              "lsb": 0,
+              "access": "RW"
+            }
+          ]
+        },
+        {
+          "name": "SPI_WDATA",
+          "offset": "0x0204",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "spi_read_data",
+              "msb": 15,
+              "lsb": 8,
+              "access": "RO",
+              "description": "最近一次ADS4229寄存器读回值"
+            },
+            {
+              "name": "spi_write_data",
+              "msb": 7,
+              "lsb": 0,
+              "access": "RW",
+              "description": "写操作使用的寄存器数据"
+            }
+          ]
+        },
+        {
+          "name": "SPI_CLOCK_DIVIDER",
+          "offset": "0x0208",
+          "reset": "0x00000010",
+          "fields": [
+            {
+              "name": "spi_clock_divider",
+              "msb": 7,
+              "lsb": 0,
+              "access": "RW",
+              "description": "SPI半周期对应的AXI时钟周期数，小于2时按2处理"
+            }
+          ]
+        },
+        {
+          "name": "SPI_STATUS",
+          "offset": "0x020C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "spi_address_valid",
+              "msb": 2,
+              "lsb": 2,
+              "access": "RO",
+              "description": "软件SPI请求仍在等待或执行"
+            },
+            {
+              "name": "spi_busy",
+              "msb": 1,
+              "lsb": 1,
+              "access": "RO",
+              "description": "上电初始化或SPI访问正在进行"
+            },
+            {
+              "name": "spi_init_done",
+              "msb": 0,
+              "lsb": 0,
+              "access": "RO",
+              "description": "ADS4229上电寄存器初始化已完成"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PIN_CTRL",
+      "registers": [
+        {
+          "name": "GPO_CTRL",
+          "offset": "0x0300",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "gpo_value",
+              "msb": 7,
+              "lsb": 0,
+              "access": "RW",
+              "description": "gpo 输出值"
+            }
+          ]
+        },
+        {
+          "name": "ADC_POWER_RESET_CTRL",
+          "offset": "0x0304",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "adc_poweren",
+              "msb": 1,
+              "lsb": 1,
+              "access": "RW",
+              "description": "adc power en，默认为1"
+            },
+            {
+              "name": "adc_reset",
+              "msb": 0,
+              "lsb": 0,
+              "access": "W1S",
+              "description": "adc 复位，写1 复位，自清0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ACCUMULATOR",
+      "registers": [
+        {
+          "name": "ACCU_CTRL_REG",
+          "offset": "0x0000",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "accmulator_status",
+              "msb": 15,
+              "lsb": 8,
+              "access": "RO",
+              "description": "传输状态"
+            },
+            {
+              "name": "batch_single_buffer_en",
+              "msb": 3,
+              "lsb": 3,
+              "access": "RW",
+              "description": "1：复用固定双通道 Batch 区域，仅保留最新 Batch；0：每个 Batch 使用独立 DDR 区域"
+            },
+            {
+              "name": "batch_sum_recorder",
+              "msb": 2,
+              "lsb": 2,
+              "access": "RW",
+              "description": "是否保留 batch 累加记录，默认关"
+            },
+            {
+              "name": "result_sum_en",
+              "msb": 1,
+              "lsb": 1,
+              "access": "RW",
+              "description": "是否自动计算整体累加值，默认开启"
+            },
+            {
+              "name": "accmulator_start",
+              "msb": 0,
+              "lsb": 0,
+              "access": "W1S",
+              "description": "开始累加计算，完成后自清0"
+            }
+          ]
+        },
+        {
+          "name": "DEVICE_CLOCK_CTRL",
+          "offset": "0x0004",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "device_clock_phase",
+              "msb": 11,
+              "lsb": 8,
+              "access": "RW",
+              "description": "初始时钟相位值，\n若开启了 slice_mode 相位会自动调整，该配置将无效"
+            },
+            {
+              "name": "device_clock_divider",
+              "msb": 3,
+              "lsb": 0,
+              "access": "RW",
+              "description": "adc 时钟分频系数，\n为0时为 250M，不可配置为1，配置为1没有时钟"
+            }
+          ]
+        },
+        {
+          "name": "DATA_PRE_SAMPLE",
+          "offset": "0x0008",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "data_pre_sample",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RW",
+              "description": "一个sample的adc数据数量\n配置值为实际值减一"
+            }
+          ]
+        },
+        {
+          "name": "DATA_PRE_SLICE",
+          "offset": "0x000C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "data_pre_slice",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RW",
+              "description": "每个 slice 采样的数据，配置值为实际值减一\nslice_pre_sample * data_pre_slice 必须等于 data_pre_sample"
+            }
+          ]
+        },
+        {
+          "name": "SAMPLE_PRE_BATCH",
+          "offset": "0x0010",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "sample_pre_batch",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RW",
+              "description": "一个 batch 累加的 sample 数。\n配置值为实际值减一"
+            }
+          ]
+        },
+        {
+          "name": "SLICE_CTRL",
+          "offset": "0x0014",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "slice_mode_en",
+              "msb": 8,
+              "lsb": 8,
+              "access": "RW",
+              "description": "是否启用 slice 模式"
+            },
+            {
+              "name": "slice_pre_sample",
+              "msb": 7,
+              "lsb": 0,
+              "access": "RW",
+              "description": "一个 sample 内的 slice 数\n配置值为实际值减一\nslice_pre_sample % 2 == 0"
+            }
+          ]
+        },
+        {
+          "name": "ACCUMULATOR_BATCHES",
+          "offset": "0x0018",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "accumulator_batches",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RW",
+              "description": "一次累加的 batch 数\n配置值为实际值减一"
+            }
+          ]
+        },
+        {
+          "name": "TRIGGER_DELAY",
+          "offset": "0x001C",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "trigger_delay",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RW",
+              "description": "slice 或 sample 累加完成到生成触发信号的延迟\n配置值为实际值减一"
+            }
+          ]
+        },
+        {
+          "name": "DATA_DELAY",
+          "offset": "0x0020",
+          "reset": "0x0100000C",
+          "fields": [
+            {
+              "name": "data_delay_pre_slice",
+              "msb": 31,
+              "lsb": 24,
+              "access": "RW",
+              "description": "slice 开始采样的数据延迟，每个slice 会累加一次"
+            },
+            {
+              "name": "data_delay",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RW",
+              "description": "触发信号开始到下一次开始采样的延迟。\n配置值为实际值\n例如当 data_delay 配置为 5，data_delay_pre_slice 为1。Sample 开始时触发信号到开始采样的延迟为 5 ，当第一个 slice 完成，第二个 slice 开始时的延迟为 6，第三个为 7。在新的 sample 开始时，将清零"
+            }
+          ]
+        },
+        {
+          "name": "TRIGGER_PULSE_CTRL",
+          "offset": "0x0024",
+          "reset": "0x00000002",
+          "fields": [
+            {
+              "name": "ld_trigger_en",
+              "msb": 16,
+              "lsb": 16,
+              "access": "RW",
+              "description": "ADC 触发开关"
+            },
+            {
+              "name": "ld_trigger_pulse_width",
+              "msb": 15,
+              "lsb": 0,
+              "access": "RW",
+              "description": "ADC 触发脉冲的宽度"
+            }
+          ]
+        },
+        {
+          "name": "BATCH_RESULT_ADDRESS",
+          "offset": "0x0028",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "batch_result_base_address",
+              "msb": 31,
+              "lsb": 0,
+              "access": "RW",
+              "description": "每个 batch 累加结果存储的基地址\n每个 batch 存储值的 offset 与 RTL 配置相关\nOFFSET = 2 ^\n  CEIL(LOG2(MAX_DATA_PRE_SAMPLE)) * 4\nadc0 batch 结果存储在 batch_result_base_address，batch_result_base_address + OFFSET\nadc0 batch 结果存储在\n batch_result_base_address + OFFSET\n batch_result_base_address + 2 * OFFSET\n因此，需要保证 batch_result_base_address 到 batch_result_base_address + 2 * MAX_BATCHES * OFFSET 的地址段为空"
+            }
+          ]
+        },
+        {
+          "name": "RESULT_SUM_ADDRESS",
+          "offset": "0x002C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "result_sum_base_address",
+              "msb": 31,
+              "lsb": 0,
+              "access": "RW",
+              "description": "所有 batch 的结果累加值存储位置\nadc0 存储在 result_sum_base_address \nadc1 存储在 result_sum_base_address + OFFSET"
+            }
+          ]
+        },
+        {
+          "name": "IRQ_CTRL",
+          "offset": "0x0030",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "transfer_done_irq_clear",
+              "msb": 27,
+              "lsb": 27,
+              "access": "W1T",
+              "description": "中断标志清除"
+            },
+            {
+              "name": "sample_done_irq_clear",
+              "msb": 26,
+              "lsb": 26,
+              "access": "W1T"
+            },
+            {
+              "name": "batch_done_irq_clear",
+              "msb": 25,
+              "lsb": 25,
+              "access": "W1T"
+            },
+            {
+              "name": "slice_done_irq_clear",
+              "msb": 24,
+              "lsb": 24,
+              "access": "W1T"
+            },
+            {
+              "name": "transfer_done_irq_flage",
+              "msb": 19,
+              "lsb": 19,
+              "access": "RO",
+              "description": "中断标志位"
+            },
+            {
+              "name": "sample_done_irq_flage",
+              "msb": 18,
+              "lsb": 18,
+              "access": "RO"
+            },
+            {
+              "name": "batch_done_irq_flage",
+              "msb": 17,
+              "lsb": 17,
+              "access": "RO"
+            },
+            {
+              "name": "slice_done_irq_flage",
+              "msb": 16,
+              "lsb": 16,
+              "access": "RO"
+            },
+            {
+              "name": "transfer_done_irq_en",
+              "msb": 11,
+              "lsb": 11,
+              "access": "RW",
+              "description": "中断使能"
+            },
+            {
+              "name": "sample_done_irq_en",
+              "msb": 10,
+              "lsb": 10,
+              "access": "RW"
+            },
+            {
+              "name": "batch_done_irq_en",
+              "msb": 9,
+              "lsb": 9,
+              "access": "RW"
+            },
+            {
+              "name": "slice_done_irq_en",
+              "msb": 8,
+              "lsb": 8,
+              "access": "RW"
+            },
+            {
+              "name": "irq_en",
+              "msb": 0,
+              "lsb": 0,
+              "access": "RW",
+              "description": "全局中断开关"
+            }
+          ]
+        },
+        {
+          "name": "BATCH_IRQ_CNT",
+          "offset": "0x0034",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "current_irq_batch_cnt",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RO",
+              "description": "中断发生时的batch计数"
+            }
+          ]
+        },
+        {
+          "name": "SAMPLE_IRQ_CNT",
+          "offset": "0x0038",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "current_irq_sample_cnt",
+              "msb": 23,
+              "lsb": 0,
+              "access": "RO",
+              "description": "中断发生时的sample计数"
+            }
+          ]
+        },
+        {
+          "name": "SLICE_IRQ_CNT",
+          "offset": "0x003C",
+          "reset": "0x00000000",
+          "fields": [
+            {
+              "name": "current_irq_slice_cnt",
+              "msb": 7,
+              "lsb": 0,
+              "access": "RO",
+              "description": "中断发生时的slice计数"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
