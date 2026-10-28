@@ -28,30 +28,30 @@
 | PA_DELAY_CTRL_2 | `0x0008` | 12:8 | da9_delay_value | RW | `0x0` |  |
 | PA_DELAY_CTRL_2 | `0x0008` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | PA_DELAY_CTRL_2 | `0x0008` | 4:0 | da8_delay_value | RW | `0x0` |  |
-| PA_DELAY_effect_0 | `0x000C` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_0 | `0x000C` | 28:24 | da3_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_0 | `0x000C` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_0 | `0x000C` | 20:16 | da2_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_0 | `0x000C` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_0 | `0x000C` | 12:8 | da1_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_0 | `0x000C` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_0 | `0x000C` | 4:0 | da0_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_1 | `0x0010` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_1 | `0x0010` | 28:24 | da7_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_1 | `0x0010` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_1 | `0x0010` | 20:16 | da6_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_1 | `0x0010` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_1 | `0x0010` | 12:8 | da5_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_1 | `0x0010` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_1 | `0x0010` | 4:0 | da4_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_2 | `0x0014` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_2 | `0x0014` | 28:24 | da11_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_2 | `0x0014` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_2 | `0x0014` | 20:16 | da10_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_2 | `0x0014` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_2 | `0x0014` | 12:8 | da9_delay_effect | RO | `0x0` |  |
-| PA_DELAY_effect_2 | `0x0014` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PA_DELAY_effect_2 | `0x0014` | 4:0 | da8_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_0 | `0x000C` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_0 | `0x000C` | 28:24 | da3_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_0 | `0x000C` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_0 | `0x000C` | 20:16 | da2_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_0 | `0x000C` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_0 | `0x000C` | 12:8 | da1_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_0 | `0x000C` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_0 | `0x000C` | 4:0 | da0_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_1 | `0x0010` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_1 | `0x0010` | 28:24 | da7_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_1 | `0x0010` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_1 | `0x0010` | 20:16 | da6_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_1 | `0x0010` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_1 | `0x0010` | 12:8 | da5_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_1 | `0x0010` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_1 | `0x0010` | 4:0 | da4_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_2 | `0x0014` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_2 | `0x0014` | 28:24 | da11_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_2 | `0x0014` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_2 | `0x0014` | 20:16 | da10_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_2 | `0x0014` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_2 | `0x0014` | 12:8 | da9_delay_effect | RO | `0x0` |  |
+| PA_DELAY_EFFECT_2 | `0x0014` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PA_DELAY_EFFECT_2 | `0x0014` | 4:0 | da8_delay_effect | RO | `0x0` |  |
 | PB_DELAY_CTRL_0 | `0x0018` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | PB_DELAY_CTRL_0 | `0x0018` | 28:24 | db3_delay_value | RW | `0x0` |  |
 | PB_DELAY_CTRL_0 | `0x0018` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
@@ -76,30 +76,30 @@
 | PB_DELAY_CTRL_2 | `0x0020` | 12:8 | db9_delay_value | RW | `0x0` |  |
 | PB_DELAY_CTRL_2 | `0x0020` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | PB_DELAY_CTRL_2 | `0x0020` | 4:0 | db8_delay_value | RW | `0x0` |  |
-| PB_DELAY_effect_0 | `0x0024` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_0 | `0x0024` | 28:24 | db3_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_0 | `0x0024` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_0 | `0x0024` | 20:16 | db2_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_0 | `0x0024` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_0 | `0x0024` | 12:8 | db1_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_0 | `0x0024` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_0 | `0x0024` | 4:0 | db0_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_1 | `0x0028` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_1 | `0x0028` | 28:24 | db7_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_1 | `0x0028` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_1 | `0x0028` | 20:16 | db6_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_1 | `0x0028` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_1 | `0x0028` | 12:8 | db5_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_1 | `0x0028` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_1 | `0x0028` | 4:0 | db4_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_2 | `0x002C` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_2 | `0x002C` | 28:24 | db11_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_2 | `0x002C` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_2 | `0x002C` | 20:16 | db10_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_2 | `0x002C` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_2 | `0x002C` | 12:8 | db9_delay_effect | RO | `0x0` |  |
-| PB_DELAY_effect_2 | `0x002C` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| PB_DELAY_effect_2 | `0x002C` | 4:0 | db8_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_0 | `0x0024` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_0 | `0x0024` | 28:24 | db3_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_0 | `0x0024` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_0 | `0x0024` | 20:16 | db2_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_0 | `0x0024` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_0 | `0x0024` | 12:8 | db1_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_0 | `0x0024` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_0 | `0x0024` | 4:0 | db0_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_1 | `0x0028` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_1 | `0x0028` | 28:24 | db7_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_1 | `0x0028` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_1 | `0x0028` | 20:16 | db6_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_1 | `0x0028` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_1 | `0x0028` | 12:8 | db5_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_1 | `0x0028` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_1 | `0x0028` | 4:0 | db4_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_2 | `0x002C` | 31:29 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_2 | `0x002C` | 28:24 | db11_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_2 | `0x002C` | 23:21 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_2 | `0x002C` | 20:16 | db10_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_2 | `0x002C` | 15:13 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_2 | `0x002C` | 12:8 | db9_delay_effect | RO | `0x0` |  |
+| PB_DELAY_EFFECT_2 | `0x002C` | 7:5 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| PB_DELAY_EFFECT_2 | `0x002C` | 4:0 | db8_delay_effect | RO | `0x0` |  |
 | FB_CLK_DELAY_CTRL | `0x0030` | 31:26 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | FB_CLK_DELAY_CTRL | `0x0030` | 25 | LVDS_MODE | RO | `0x0` |  |
 | FB_CLK_DELAY_CTRL | `0x0030` | 24 | CMOS_MODE | RO | `0x0` |  |
@@ -155,7 +155,7 @@
 | GPO_CTRL | `0x0300` | 31:8 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | GPO_CTRL | `0x0300` | 7:0 | gpo_value | RW | `0x0` | gpo 输出值 |
 | ADC_POWER_RESET_CTRL | `0x0304` | 31:2 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| ADC_POWER_RESET_CTRL | `0x0304` | 1 | adc_poweren | RW | `0x1` | adc power en，默认为1 |
+| ADC_POWER_RESET_CTRL | `0x0304` | 1 | adc_power_en | RW | `0x1` | adc power en，默认为1 |
 | ADC_POWER_RESET_CTRL | `0x0304` | 0 | adc_reset | W1S | `0x0` | adc 复位，写1 复位，自清0 |
 
 ## ACCUMULATOR
@@ -163,54 +163,54 @@
 | Register | Offset | Bits | Field | Access | Reset | Description |
 |---|---:|---:|---|---|---:|---|
 | ACCU_CTRL_REG | `0x0000` | 31:16 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| ACCU_CTRL_REG | `0x0000` | 15:8 | accmulator_status | RO | `0x0` | 传输状态 |
+| ACCU_CTRL_REG | `0x0000` | 15:8 | accumulator_status | RO | `0x0` | 传输状态 |
 | ACCU_CTRL_REG | `0x0000` | 7:4 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | ACCU_CTRL_REG | `0x0000` | 3 | batch_single_buffer_en | RW | `0x0` | 1：复用固定双通道 Batch 区域，仅保留最新 Batch；0：每个 Batch 使用独立 DDR 区域 |
 | ACCU_CTRL_REG | `0x0000` | 2 | batch_sum_recorder | RW | `0x0` | 是否保留 batch 累加记录，默认关 |
 | ACCU_CTRL_REG | `0x0000` | 1 | result_sum_en | RW | `0x1` | 是否自动计算整体累加值，默认开启 |
-| ACCU_CTRL_REG | `0x0000` | 0 | accmulator_start | W1S | `0x0` | 开始累加计算，完成后自清0 |
+| ACCU_CTRL_REG | `0x0000` | 0 | accumulator_start | W1S | `0x0` | 开始累加计算，完成后自清0 |
 | DEVICE_CLOCK_CTRL | `0x0004` | 31:12 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | DEVICE_CLOCK_CTRL | `0x0004` | 11:8 | device_clock_phase | RW | `0x0` | 初始时钟相位值，
 若开启了 slice_mode 相位会自动调整，该配置将无效 |
 | DEVICE_CLOCK_CTRL | `0x0004` | 7:4 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | DEVICE_CLOCK_CTRL | `0x0004` | 3:0 | device_clock_divider | RW | `0x0` | adc 时钟分频系数，
 为0时为 250M，不可配置为1，配置为1没有时钟 |
-| DATA_PRE_SAMPLE | `0x0008` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| DATA_PRE_SAMPLE | `0x0008` | 23:0 | data_pre_sample | RW | `0x0` | 一个sample的adc数据数量
+| DATA_POINTS_PER_SAMPLE | `0x0008` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| DATA_POINTS_PER_SAMPLE | `0x0008` | 23:0 | data_points_per_sample | RW | `0x0` | 一个sample的adc数据数量
 配置值为实际值减一 |
-| DATA_PRE_SLICE | `0x000C` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| DATA_PRE_SLICE | `0x000C` | 23:0 | data_pre_slice | RW | `0x0` | 每个 slice 采样的数据，配置值为实际值减一
-slice_pre_sample * data_pre_slice 必须等于 data_pre_sample |
-| SAMPLE_PRE_BATCH | `0x0010` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| SAMPLE_PRE_BATCH | `0x0010` | 23:0 | sample_pre_batch | RW | `0x2` | 一个 batch 累加的 sample 数。
+| DATA_POINTS_PER_SLICE | `0x000C` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| DATA_POINTS_PER_SLICE | `0x000C` | 23:0 | data_points_per_slice | RW | `0x0` | 每个 slice 采样的数据，配置值为实际值减一
+slices_per_sample * data_points_per_slice 必须等于 data_points_per_sample |
+| SAMPLES_PER_BATCH | `0x0010` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
+| SAMPLES_PER_BATCH | `0x0010` | 23:0 | samples_per_batch | RW | `0x2` | 一个 batch 累加的 sample 数。
 配置值为实际值减一 |
 | SLICE_CTRL | `0x0014` | 31:9 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | SLICE_CTRL | `0x0014` | 8 | slice_mode_en | RW | `0x0` | 是否启用 slice 模式 |
-| SLICE_CTRL | `0x0014` | 7:0 | slice_pre_sample | RW | `0x2` | 一个 sample 内的 slice 数
+| SLICE_CTRL | `0x0014` | 7:0 | slices_per_sample | RW | `0x2` | 一个 sample 内的 slice 数
 配置值为实际值减一
-slice_pre_sample % 2 == 0 |
+slices_per_sample % 2 == 0 |
 | ACCUMULATOR_BATCHES | `0x0018` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | ACCUMULATOR_BATCHES | `0x0018` | 23:0 | accumulator_batches | RW | `0x2` | 一次累加的 batch 数
 配置值为实际值减一 |
 | TRIGGER_DELAY | `0x001C` | 31:24 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | TRIGGER_DELAY | `0x001C` | 23:0 | trigger_delay | RW | `0x2` | slice 或 sample 累加完成到生成触发信号的延迟
 配置值为实际值减一 |
-| DATA_DELAY | `0x0020` | 31:24 | data_delay_pre_slice | RW | `0x1` | slice 开始采样的数据延迟，每个slice 会累加一次 |
+| DATA_DELAY | `0x0020` | 31:24 | data_delay_per_slice | RW | `0x1` | slice 开始采样的数据延迟，每个slice 会累加一次 |
 | DATA_DELAY | `0x0020` | 23:0 | data_delay | RW | `0xC` | 触发信号开始到下一次开始采样的延迟。
 配置值为实际值
-例如当 data_delay 配置为 5，data_delay_pre_slice 为1。Sample 开始时触发信号到开始采样的延迟为 5 ，当第一个 slice 完成，第二个 slice 开始时的延迟为 6，第三个为 7。在新的 sample 开始时，将清零 |
+例如当 data_delay 配置为 5，data_delay_per_slice 为1。Sample 开始时触发信号到开始采样的延迟为 5 ，当第一个 slice 完成，第二个 slice 开始时的延迟为 6，第三个为 7。在新的 sample 开始时，将清零 |
 | TRIGGER_PULSE_CTRL | `0x0024` | 31:17 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | TRIGGER_PULSE_CTRL | `0x0024` | 16 | ld_trigger_en | RW | `0x0` | ADC 触发开关 |
 | TRIGGER_PULSE_CTRL | `0x0024` | 15:0 | ld_trigger_pulse_width | RW | `0x2` | ADC 触发脉冲的宽度 |
 | BATCH_RESULT_ADDRESS | `0x0028` | 31:0 | batch_result_base_address | RW | `0x0` | 每个 batch 累加结果存储的基地址
 每个 batch 存储值的 offset 与 RTL 配置相关
 OFFSET = 2 ^
-  CEIL(LOG2(MAX_DATA_PRE_SAMPLE)) * 4
+  CEIL(LOG2(MAX_DATA_POINTS_PER_SAMPLE)) * 4
 adc0 batch 结果存储在 batch_result_base_address，batch_result_base_address + OFFSET
 adc0 batch 结果存储在
  batch_result_base_address + OFFSET
  batch_result_base_address + 2 * OFFSET
-因此，需要保证 batch_result_base_address 到 batch_result_base_address + 2 * MAX_BATCHES * OFFSET 的地址段为空 |
+因此，需要保证 batch_result_base_address 到 batch_result_base_address + 2 * MAX_BATCH_COUNT * OFFSET 的地址段为空 |
 | RESULT_SUM_ADDRESS | `0x002C` | 31:0 | result_sum_base_address | RW | `0x0` | 所有 batch 的结果累加值存储位置
 adc0 存储在 result_sum_base_address 
 adc1 存储在 result_sum_base_address + OFFSET |
@@ -220,10 +220,10 @@ adc1 存储在 result_sum_base_address + OFFSET |
 | IRQ_CTRL | `0x0030` | 25 | batch_done_irq_clear | W1T | `0x0` |  |
 | IRQ_CTRL | `0x0030` | 24 | slice_done_irq_clear | W1T | `0x0` |  |
 | IRQ_CTRL | `0x0030` | 23:20 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
-| IRQ_CTRL | `0x0030` | 19 | transfer_done_irq_flage | RO | `0x0` | 中断标志位 |
-| IRQ_CTRL | `0x0030` | 18 | sample_done_irq_flage | RO | `0x0` |  |
-| IRQ_CTRL | `0x0030` | 17 | batch_done_irq_flage | RO | `0x0` |  |
-| IRQ_CTRL | `0x0030` | 16 | slice_done_irq_flage | RO | `0x0` |  |
+| IRQ_CTRL | `0x0030` | 19 | transfer_done_irq_flag | RO | `0x0` | 中断标志位 |
+| IRQ_CTRL | `0x0030` | 18 | sample_done_irq_flag | RO | `0x0` |  |
+| IRQ_CTRL | `0x0030` | 17 | batch_done_irq_flag | RO | `0x0` |  |
+| IRQ_CTRL | `0x0030` | 16 | slice_done_irq_flag | RO | `0x0` |  |
 | IRQ_CTRL | `0x0030` | 15:12 | RESERVED | RO | `0x0` | Reserved; keep at reset value. |
 | IRQ_CTRL | `0x0030` | 11 | transfer_done_irq_en | RW | `0x0` | 中断使能 |
 | IRQ_CTRL | `0x0030` | 10 | sample_done_irq_en | RW | `0x0` |  |

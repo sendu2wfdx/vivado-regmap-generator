@@ -98,7 +98,7 @@
           ]
         },
         {
-          "name": "PA_DELAY_effect_0",
+          "name": "PA_DELAY_EFFECT_0",
           "offset": "0x000C",
           "reset": "0x00000000",
           "fields": [
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "name": "PA_DELAY_effect_1",
+          "name": "PA_DELAY_EFFECT_1",
           "offset": "0x0010",
           "reset": "0x00000000",
           "fields": [
@@ -160,7 +160,7 @@
           ]
         },
         {
-          "name": "PA_DELAY_effect_2",
+          "name": "PA_DELAY_EFFECT_2",
           "offset": "0x0014",
           "reset": "0x00000000",
           "fields": [
@@ -284,7 +284,7 @@
           ]
         },
         {
-          "name": "PB_DELAY_effect_0",
+          "name": "PB_DELAY_EFFECT_0",
           "offset": "0x0024",
           "reset": "0x00000000",
           "fields": [
@@ -315,7 +315,7 @@
           ]
         },
         {
-          "name": "PB_DELAY_effect_1",
+          "name": "PB_DELAY_EFFECT_1",
           "offset": "0x0028",
           "reset": "0x00000000",
           "fields": [
@@ -346,7 +346,7 @@
           ]
         },
         {
-          "name": "PB_DELAY_effect_2",
+          "name": "PB_DELAY_EFFECT_2",
           "offset": "0x002C",
           "reset": "0x00000000",
           "fields": [
@@ -622,7 +622,7 @@
           "reset": "0x00000002",
           "fields": [
             {
-              "name": "adc_poweren",
+              "name": "adc_power_en",
               "msb": 1,
               "lsb": 1,
               "access": "RW",
@@ -648,7 +648,7 @@
           "reset": "0x00000002",
           "fields": [
             {
-              "name": "accmulator_status",
+              "name": "accumulator_status",
               "msb": 15,
               "lsb": 8,
               "access": "RO",
@@ -676,7 +676,7 @@
               "description": "是否自动计算整体累加值，默认开启"
             },
             {
-              "name": "accmulator_start",
+              "name": "accumulator_start",
               "msb": 0,
               "lsb": 0,
               "access": "W1S",
@@ -706,12 +706,12 @@
           ]
         },
         {
-          "name": "DATA_PRE_SAMPLE",
+          "name": "DATA_POINTS_PER_SAMPLE",
           "offset": "0x0008",
           "reset": "0x00000000",
           "fields": [
             {
-              "name": "data_pre_sample",
+              "name": "data_points_per_sample",
               "msb": 23,
               "lsb": 0,
               "access": "RW",
@@ -720,26 +720,26 @@
           ]
         },
         {
-          "name": "DATA_PRE_SLICE",
+          "name": "DATA_POINTS_PER_SLICE",
           "offset": "0x000C",
           "reset": "0x00000000",
           "fields": [
             {
-              "name": "data_pre_slice",
+              "name": "data_points_per_slice",
               "msb": 23,
               "lsb": 0,
               "access": "RW",
-              "description": "每个 slice 采样的数据，配置值为实际值减一\nslice_pre_sample * data_pre_slice 必须等于 data_pre_sample"
+              "description": "每个 slice 采样的数据，配置值为实际值减一\nslices_per_sample * data_points_per_slice 必须等于 data_points_per_sample"
             }
           ]
         },
         {
-          "name": "SAMPLE_PRE_BATCH",
+          "name": "SAMPLES_PER_BATCH",
           "offset": "0x0010",
           "reset": "0x00000002",
           "fields": [
             {
-              "name": "sample_pre_batch",
+              "name": "samples_per_batch",
               "msb": 23,
               "lsb": 0,
               "access": "RW",
@@ -760,11 +760,11 @@
               "description": "是否启用 slice 模式"
             },
             {
-              "name": "slice_pre_sample",
+              "name": "slices_per_sample",
               "msb": 7,
               "lsb": 0,
               "access": "RW",
-              "description": "一个 sample 内的 slice 数\n配置值为实际值减一\nslice_pre_sample % 2 == 0"
+              "description": "一个 sample 内的 slice 数\n配置值为实际值减一\nslices_per_sample % 2 == 0"
             }
           ]
         },
@@ -802,7 +802,7 @@
           "reset": "0x0100000C",
           "fields": [
             {
-              "name": "data_delay_pre_slice",
+              "name": "data_delay_per_slice",
               "msb": 31,
               "lsb": 24,
               "access": "RW",
@@ -813,7 +813,7 @@
               "msb": 23,
               "lsb": 0,
               "access": "RW",
-              "description": "触发信号开始到下一次开始采样的延迟。\n配置值为实际值\n例如当 data_delay 配置为 5，data_delay_pre_slice 为1。Sample 开始时触发信号到开始采样的延迟为 5 ，当第一个 slice 完成，第二个 slice 开始时的延迟为 6，第三个为 7。在新的 sample 开始时，将清零"
+              "description": "触发信号开始到下一次开始采样的延迟。\n配置值为实际值\n例如当 data_delay 配置为 5，data_delay_per_slice 为1。Sample 开始时触发信号到开始采样的延迟为 5 ，当第一个 slice 完成，第二个 slice 开始时的延迟为 6，第三个为 7。在新的 sample 开始时，将清零"
             }
           ]
         },
@@ -848,7 +848,7 @@
               "msb": 31,
               "lsb": 0,
               "access": "RW",
-              "description": "每个 batch 累加结果存储的基地址\n每个 batch 存储值的 offset 与 RTL 配置相关\nOFFSET = 2 ^\n  CEIL(LOG2(MAX_DATA_PRE_SAMPLE)) * 4\nadc0 batch 结果存储在 batch_result_base_address，batch_result_base_address + OFFSET\nadc0 batch 结果存储在\n batch_result_base_address + OFFSET\n batch_result_base_address + 2 * OFFSET\n因此，需要保证 batch_result_base_address 到 batch_result_base_address + 2 * MAX_BATCHES * OFFSET 的地址段为空"
+              "description": "每个 batch 累加结果存储的基地址\n每个 batch 存储值的 offset 与 RTL 配置相关\nOFFSET = 2 ^\n  CEIL(LOG2(MAX_DATA_POINTS_PER_SAMPLE)) * 4\nadc0 batch 结果存储在 batch_result_base_address，batch_result_base_address + OFFSET\nadc0 batch 结果存储在\n batch_result_base_address + OFFSET\n batch_result_base_address + 2 * OFFSET\n因此，需要保证 batch_result_base_address 到 batch_result_base_address + 2 * MAX_BATCH_COUNT * OFFSET 的地址段为空"
             }
           ]
         },
@@ -897,26 +897,26 @@
               "access": "W1T"
             },
             {
-              "name": "transfer_done_irq_flage",
+              "name": "transfer_done_irq_flag",
               "msb": 19,
               "lsb": 19,
               "access": "RO",
               "description": "中断标志位"
             },
             {
-              "name": "sample_done_irq_flage",
+              "name": "sample_done_irq_flag",
               "msb": 18,
               "lsb": 18,
               "access": "RO"
             },
             {
-              "name": "batch_done_irq_flage",
+              "name": "batch_done_irq_flag",
               "msb": 17,
               "lsb": 17,
               "access": "RO"
             },
             {
-              "name": "slice_done_irq_flage",
+              "name": "slice_done_irq_flag",
               "msb": 16,
               "lsb": 16,
               "access": "RO"
